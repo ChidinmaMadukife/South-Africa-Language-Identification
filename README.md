@@ -21,7 +21,7 @@ In this project, we tackled the challenge of identifying which of South Africa's
 
   **Here is a visual representation of the distribution**
 
-  ![Language Distribution](https://raw.githubusercontent.com/ChidinmaMadukife/HR_Absenteeism_Analysis/main/images/yourimage.png)
+  ![Language Distribution](https://github.com/ChidinmaMadukife/South-Africa-Language-Identification/blob/main/Images/Language%20Distribution.png)
 
 ## Conclusion
 

@@ -1,0 +1,21 @@
+The dependencies used for this project and their uses are contained within this document.
+
+import numpy as np                                                 #For statistics, array creation and manipulation
+import pandas as pd                                                #For data loading and data manipulation
+import seaborn as sns                                              #For data visualization
+from wordcloud import WordCloud                                    #For visualizing the summarized textual data
+import matplotlib.pyplot as plt                                    #For data visualization -%matplotlib below is a magic command to render matplotlib in jupyter 
+%matplotlib inline 
+import re                                                          #For data cleaning to remove/replace unwanted patterns
+import string                                                      #For data cleaning to remove/replace unwanted patterns
+from sklearn.feature_extraction.text import TfidfVectorizer       #For mapping/converting words into real numbers
+from sklearn.feature_extraction.text import CountVectorizer       #For mapping/converting words into real numbers
+from sklearn.preprocessing import LabelEncoder                    #For converting words into real numbers
+from sklearn.model_selection import train_test_split              #For splitting the dataset into train and test
+from sklearn.preprocessing import MaxAbsScaler                    #For scaling our data
+from sklearn.metrics import classification_report, accuracy_score #For evaluating model preformance
+from sklearn.model_selection import GridSearchCV                  #For hyperparameter tuning
+from sklearn.linear_model import LogisticRegression               #For building a logistic regression model
+from sklearn.ensemble import RandomForestClassifier               #For building a random forest model
+from sklearn.svm import SVC                                       #For building a support vector classifier model
+from sklearn.naive_bayes import MultinomialNB                     #For building a Naive Bayes multinomial model
